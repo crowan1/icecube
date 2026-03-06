@@ -1,8 +1,18 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;  
 
 public class PlayerGameOver : MonoBehaviour
 {
     [SerializeField] GameObject gameOverScreen;
+    bool isGameOver = false;
+
+    void Update()
+    {
+        if (isGameOver && Input.GetKeyDown(KeyCode.Space))
+        { 
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
+    }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -18,6 +28,8 @@ public class PlayerGameOver : MonoBehaviour
             var rb = GetComponent<Rigidbody2D>();
             if (rb != null)
                 rb.linearVelocity = Vector2.zero;
+
+            isGameOver = true;    
         }
     }
 }
