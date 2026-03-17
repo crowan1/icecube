@@ -6,7 +6,6 @@ public class LevelExit : MonoBehaviour
     {
         if (other.CompareTag("player"))
         {
-            Debug.Log("Le joueur a touche le drapeau !");
             LevelComplete levelComplete = FindFirstObjectByType<LevelComplete>();
             if (levelComplete != null)
             {

@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class PlayerMovement2D : MonoBehaviour
 {
-    public float moveSpeed = 5f;
+    public float moveSpeed;
     public string wallTag = "Wall";
 
     public GameObject colliderRight;
