@@ -3,7 +3,12 @@ using UnityEngine;
 public class PlayerMovement2D : MonoBehaviour
 {
     public float moveSpeed = 5f;
-    public string wallTag = "Wall";   
+    public string wallTag = "Wall";
+
+    public GameObject colliderRight;
+    public GameObject colliderLeft;
+    public GameObject colliderUp;
+    public GameObject colliderDown;
 
     Rigidbody2D rb;
     Vector2 moveDirection = Vector2.zero;
@@ -12,30 +17,35 @@ public class PlayerMovement2D : MonoBehaviour
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        DisableAllColliders();
     }
 
     void Update()
-    { 
+    {
         if (!isMoving)
         {
             if (Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.D))
             {
                 moveDirection = Vector2.right;
+                ActivateCollider(colliderRight);
                 isMoving = true;
             }
             else if (Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.A))
             {
                 moveDirection = Vector2.left;
+                ActivateCollider(colliderLeft);
                 isMoving = true;
             }
             else if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W))
             {
                 moveDirection = Vector2.up;
+                ActivateCollider(colliderUp);
                 isMoving = true;
             }
             else if (Input.GetKeyDown(KeyCode.DownArrow) || Input.GetKeyDown(KeyCode.S))
             {
                 moveDirection = Vector2.down;
+                ActivateCollider(colliderDown);
                 isMoving = true;
             }
         }
@@ -53,12 +63,23 @@ public class PlayerMovement2D : MonoBehaviour
         }
     }
 
-    void OnCollisionEnter2D(Collision2D collision)
-    { 
-        if (collision.collider.CompareTag(wallTag))
-        {
-            isMoving = false;
-            rb.linearVelocity = Vector2.zero;
-        }
+    public void Stop()
+    {
+        isMoving = false;
+        rb.linearVelocity = Vector2.zero;
+    }
+
+    void ActivateCollider(GameObject active)
+    {
+        DisableAllColliders();
+        active.SetActive(true);
+    }
+
+    void DisableAllColliders()
+    {
+        colliderRight.SetActive(false);
+        colliderLeft.SetActive(false);
+        colliderUp.SetActive(false);
+        colliderDown.SetActive(false);
     }
 }
