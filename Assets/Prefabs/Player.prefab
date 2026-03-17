@@ -1,5 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+<<<<<<< HEAD
 --- !u!1 &3034672368188526050
 GameObject:
   m_ObjectHideFlags: 0
@@ -182,6 +183,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f2dcff8608417540a698d83e9761242, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DirectionCollider
+=======
+>>>>>>> ac6b45cfa852c7820375d665121116d994dde00f
 --- !u!1 &5784864390205062945
 GameObject:
   m_ObjectHideFlags: 0
@@ -214,6 +217,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -8.06, y: -4.06, z: 0}
+<<<<<<< HEAD
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -221,6 +225,11 @@ Transform:
   - {fileID: 2229230796734631916}
   - {fileID: 693750735959503447}
   - {fileID: 4269549241930376930}
+=======
+  m_LocalScale: {x: 4, y: 4, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+>>>>>>> ac6b45cfa852c7820375d665121116d994dde00f
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &3566399512669046735
@@ -272,15 +281,26 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
+<<<<<<< HEAD
   m_Sprite: {fileID: 7482667652216324306, guid: 0f4597ecd2a82434a8ae20b867dbc167, type: 3}
+=======
+  m_Sprite: {fileID: -2413806693520163455, guid: df1ef908305f44a4290c8e4df4ce6b07, type: 3}
+>>>>>>> ac6b45cfa852c7820375d665121116d994dde00f
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
+<<<<<<< HEAD
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+=======
+  m_Size: {x: 0.23, y: 0.28}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 0
+>>>>>>> ac6b45cfa852c7820375d665121116d994dde00f
   m_SpriteSortPoint: 0
 --- !u!95 &858791271582066164
 Animator:
@@ -345,10 +365,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement2D
   moveSpeed: 5
   wallTag: Wall
+<<<<<<< HEAD
   colliderRight: {fileID: 3034672368188526050}
   colliderLeft: {fileID: 3891202002535361705}
   colliderUp: {fileID: 8280568988725543416}
   colliderDown: {fileID: 8386833718861196393}
+=======
+>>>>>>> ac6b45cfa852c7820375d665121116d994dde00f
 --- !u!61 &8692978810169456733
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -379,7 +402,11 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
+<<<<<<< HEAD
   m_IsTrigger: 1
+=======
+  m_IsTrigger: 0
+>>>>>>> ac6b45cfa852c7820375d665121116d994dde00f
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -388,12 +415,20 @@ BoxCollider2D:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 1, y: 1}
+<<<<<<< HEAD
     newSize: {x: 1, y: 1}
+=======
+    newSize: {x: 0.23, y: 0.28}
+>>>>>>> ac6b45cfa852c7820375d665121116d994dde00f
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
+<<<<<<< HEAD
   m_Size: {x: 0.2, y: 0.2}
+=======
+  m_Size: {x: 0.1, y: 0.1}
+>>>>>>> ac6b45cfa852c7820375d665121116d994dde00f
   m_EdgeRadius: 0
 --- !u!114 &8149100260621127873
 MonoBehaviour:
@@ -408,6 +443,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerGameOver
   gameOverScreen: {fileID: 0}
+<<<<<<< HEAD
 --- !u!1 &8280568988725543416
 GameObject:
   m_ObjectHideFlags: 0
@@ -590,3 +626,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f2dcff8608417540a698d83e9761242, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DirectionCollider
+=======
+>>>>>>> ac6b45cfa852c7820375d665121116d994dde00f
