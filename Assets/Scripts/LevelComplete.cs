@@ -34,7 +34,7 @@ public class LevelComplete : MonoBehaviour
     {
         int levelNumber = SceneManager.GetActiveScene().buildIndex + 1;
 
-        levelText.text = "Niveau " + levelNumber + " terminé";
+        levelText.text = "Niveau " + levelNumber + " terminï¿½";
 
         int nextSceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
         isLastLevel = nextSceneIndex >= SceneManager.sceneCountInBuildSettings;

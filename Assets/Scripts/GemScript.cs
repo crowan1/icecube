@@ -2,20 +2,16 @@ using UnityEngine;
 
 public class GemScript : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Destroy(gameObject);
+        if (collision.CompareTag("player"))
+        {
+            GemManager manager = FindFirstObjectByType<GemManager>();
+            if (manager != null)
+            {
+                manager.GemCollected();
+            }
+            Destroy(gameObject);
+        }
     }
 }

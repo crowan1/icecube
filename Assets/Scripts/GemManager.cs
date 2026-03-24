@@ -1,22 +1,24 @@
 using UnityEngine;
 
-public class GemParentScript : MonoBehaviour
+public class GemManager : MonoBehaviour
 {
     int totalGems;
-    int collectedGems = 0;
-    bool levelCompleted = false;
+    int collectedGems;
 
     void Start()
     {
-        totalGems = transform.childCount;
+        totalGems = FindObjectsByType<GemScript>(FindObjectsSortMode.None).Length;
+        collectedGems = 0;
+        Debug.Log("Total gems dans le niveau: " + totalGems);
     }
 
     public void GemCollected()
     {
         collectedGems++;
-        if (!levelCompleted && collectedGems >= totalGems)
+        Debug.Log("Gem collectee: " + collectedGems + "/" + totalGems);
+
+        if (collectedGems >= totalGems)
         {
-            levelCompleted = true;
             LevelComplete levelComplete = FindFirstObjectByType<LevelComplete>();
             if (levelComplete != null)
             {
