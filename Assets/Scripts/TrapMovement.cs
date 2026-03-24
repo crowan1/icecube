@@ -4,41 +4,37 @@ using UnityEngine.SceneManagement;
 public class TrapMovement : MonoBehaviour
 {
     [SerializeField] float speed = 3f;
-    [SerializeField] float distance = 2f;
     [SerializeField] GameObject gameOverScreen;
 
-    Vector3 startPos;
     bool movingRight = true;
     bool isGameOver = false;
-
-    void Start()
-    {
-        startPos = transform.position;
-    }
+    float turnCooldown = 0f;
 
     void Update()
     { 
-        if (movingRight)
+        if (isGameOver)
         {
-            transform.position += Vector3.right * speed * Time.deltaTime;
-            if (transform.position.x >= startPos.x + distance)
-                movingRight = false;
+            if (Input.GetKeyDown(KeyCode.Space))
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            return;
         }
-        else
-        {
-            transform.position += Vector3.left * speed * Time.deltaTime;
-            if (transform.position.x <= startPos.x - distance)
-                movingRight = true;
-        }
- 
-        if (isGameOver && Input.GetKeyDown(KeyCode.Space))
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        }
+
+        if (turnCooldown > 0f)
+            turnCooldown -= Time.deltaTime;
+
+        Vector3 dir = movingRight ? Vector3.right : Vector3.left;
+        transform.position += dir * speed * Time.deltaTime;
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        if ((other.CompareTag("Wall") || other is BoxCollider2D) && turnCooldown <= 0f)
+        {
+            movingRight = !movingRight;
+            turnCooldown = 0.3f; 
+            return;
+        }
+
         if (other.CompareTag("player"))
         {
             if (gameOverScreen != null)
@@ -53,6 +49,15 @@ public class TrapMovement : MonoBehaviour
                 rb.linearVelocity = Vector2.zero;
 
             isGameOver = true;
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Wall") && turnCooldown <= 0f)
+        {
+            movingRight = !movingRight;
+            turnCooldown = 0.3f;
         }
     }
 }

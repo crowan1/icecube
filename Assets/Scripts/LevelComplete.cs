@@ -33,9 +33,8 @@ public class LevelComplete : MonoBehaviour
     public void Show()
     {
         int levelNumber = SceneManager.GetActiveScene().buildIndex + 1;
-<<<<<<< HEAD
-        levelText.text = "Niveau " + levelNumber + " terminé";
-=======
+        levelText.text = "Niveau " + levelNumber + " terminï¿½";
+
         int nextSceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
         isLastLevel = nextSceneIndex >= SceneManager.sceneCountInBuildSettings;
 
@@ -48,8 +47,6 @@ public class LevelComplete : MonoBehaviour
         {
             levelText.text = "Niveau " + levelNumber + " termine";
         }
-
->>>>>>> c925b25a5dffa08f897466cd18039fed7e7bd517
         panel.SetActive(true);
         isShowing = true;
         Time.timeScale = 0f;
