@@ -5,8 +5,9 @@ public class TrapMovement : MonoBehaviour
 {
     [SerializeField] float speed = 3f;
     [SerializeField] GameObject gameOverScreen;
+    [SerializeField] bool isVertical = false;
 
-    bool movingRight = true;
+    bool movingPositive = true;
     bool isGameOver = false;
     float turnCooldown = 0f;
 
@@ -16,13 +17,16 @@ public class TrapMovement : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.Space))
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-            return;
+            return; 
         }
 
         if (turnCooldown > 0f)
             turnCooldown -= Time.deltaTime;
 
-        Vector3 dir = movingRight ? Vector3.right : Vector3.left;
+        Vector3 dir = isVertical
+            ? (movingPositive ? Vector3.up : Vector3.down)
+            : (movingPositive ? Vector3.right : Vector3.left);
+
         transform.position += dir * speed * Time.deltaTime;
     }
 
@@ -30,7 +34,7 @@ public class TrapMovement : MonoBehaviour
     {
         if ((other.CompareTag("Wall") || other is BoxCollider2D) && turnCooldown <= 0f)
         {
-            movingRight = !movingRight;
+            movingPositive = !movingPositive;
             turnCooldown = 0.3f; 
             return;
         }
@@ -56,7 +60,7 @@ public class TrapMovement : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Wall") && turnCooldown <= 0f)
         {
-            movingRight = !movingRight;
+            movingPositive = !movingPositive;
             turnCooldown = 0.3f;
         }
     }
