@@ -33,6 +33,7 @@ public class LevelComplete : MonoBehaviour
     public void Show()
     {
         int levelNumber = SceneManager.GetActiveScene().buildIndex + 1;
+
         levelText.text = "Niveau " + levelNumber + " terminé";
 
         int nextSceneIndex = SceneManager.GetActiveScene().buildIndex + 1;

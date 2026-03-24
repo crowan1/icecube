@@ -157,7 +157,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrapMovement
   speed: 3
-  distance: 2
   gameOverScreen: {fileID: 0}
 --- !u!61 &6157211336241843144
 BoxCollider2D:
@@ -197,11 +196,11 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.0666667, y: 1.0666667}
+    oldSize: {x: 0.8, y: 0.8}
     newSize: {x: 0.32, y: 0.32}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.0666667, y: 1.0666667}
+  m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
