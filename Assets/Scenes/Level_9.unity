@@ -1063,7 +1063,7 @@ PrefabInstance:
     - target: {fileID: 8080533777744070359, guid: 034534a4fda8e5945b51058e71298b79, type: 3}
       propertyPath: gameOverScreen
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1528299021}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1512,6 +1512,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4219887960370936994, guid: 034534a4fda8e5945b51058e71298b79, type: 3}
   m_PrefabInstance: {fileID: 1803742681}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1528299021 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5624130514623747961, guid: d658d16c8b8839846a64b443a2edd31d, type: 3}
+  m_PrefabInstance: {fileID: 171515405}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1606548549 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7033191016514394153, guid: 5a0d52e980baec849b7ec0fbfa20d414, type: 3}
@@ -1615,7 +1620,7 @@ PrefabInstance:
     - target: {fileID: 8080533777744070359, guid: 034534a4fda8e5945b51058e71298b79, type: 3}
       propertyPath: gameOverScreen
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1528299021}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1859,7 +1864,7 @@ PrefabInstance:
     - target: {fileID: 8080533777744070359, guid: 034534a4fda8e5945b51058e71298b79, type: 3}
       propertyPath: gameOverScreen
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1528299021}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
