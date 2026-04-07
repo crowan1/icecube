@@ -32,15 +32,19 @@ public class TrapMovement : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if ((other.CompareTag("Wall") || other is BoxCollider2D) && turnCooldown <= 0f)
+        
+           if (isGameOver) return; 
+
+        if (other.CompareTag("Wall") && turnCooldown <= 0f)
         {
             movingPositive = !movingPositive;
-            turnCooldown = 0.3f; 
+            turnCooldown = 0.3f;
             return;
         }
 
         if (other.CompareTag("player"))
         {
+             isGameOver = true;
             if (gameOverScreen != null)
                 gameOverScreen.SetActive(true);
 
