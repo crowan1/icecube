@@ -174,7 +174,7 @@ PrefabInstance:
     - target: {fileID: 8080533777744070359, guid: 034534a4fda8e5945b51058e71298b79, type: 3}
       propertyPath: gameOverScreen
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 660255878}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -535,7 +535,7 @@ PrefabInstance:
     - target: {fileID: 8080533777744070359, guid: 034534a4fda8e5945b51058e71298b79, type: 3}
       propertyPath: gameOverScreen
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 660255878}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1879,7 +1879,7 @@ PrefabInstance:
     - target: {fileID: 8080533777744070359, guid: 034534a4fda8e5945b51058e71298b79, type: 3}
       propertyPath: gameOverScreen
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 660255878}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
