@@ -18,13 +18,9 @@ public class LevelComplete : MonoBehaviour
 
     void Update()
     {
-        if (isShowing && Input.GetKeyDown(KeyCode.Return))
+        if (isShowing && Input.anyKeyDown)
         {
             OnNextPressed();
-        }
-        if (isShowing && Input.GetKeyDown(KeyCode.Space))
-        {
-            RestartLevel();
         }
     }
 
