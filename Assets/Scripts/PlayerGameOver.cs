@@ -18,6 +18,8 @@ public class PlayerGameOver : MonoBehaviour
     {
         if (other.CompareTag("Enemy"))
         {
+            if (SFXManager.instance != null)
+                SFXManager.instance.PlayDeath();
             if (gameOverScreen != null)
                 gameOverScreen.SetActive(true);
 

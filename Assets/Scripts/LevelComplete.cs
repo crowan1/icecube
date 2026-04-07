@@ -35,11 +35,18 @@ public class LevelComplete : MonoBehaviour
 
         if (isLastLevel)
         {
-            levelText.text = "Bravo ! Tous les niveaux sont termines !";
+            levelText.text = "BRAVO ! Tous les niveaux sont réussis !";
         }
         else
         {
             levelText.text = "NIVEAU " + levelNumber + " TERMINÉ";
+        }
+        if (SFXManager.instance != null)
+        {
+            if (isLastLevel)
+                SFXManager.instance.PlayFinalVictory();
+            else
+                SFXManager.instance.PlayVictory();
         }
         panel.SetActive(true);
         isShowing = true;

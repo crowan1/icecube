@@ -18,6 +18,18 @@ public class MainMenu : MonoBehaviour
         playButton.onClick.AddListener(Play);
         controlsButton.onClick.AddListener(ShowControls);
         backButton.onClick.AddListener(Back);
+        SetButtonColors(playButton);
+        SetButtonColors(controlsButton);
+        SetButtonColors(backButton);
+        playButton.Select();
+    }
+
+    void SetButtonColors(Button button)
+    {
+        ColorBlock colors = button.colors;
+        colors.highlightedColor = new Color(0.145f, 0.886f, 0.298f, 1f);
+        colors.selectedColor = new Color(0.145f, 0.886f, 0.298f, 1f);
+        button.colors = colors;
     }
 
     void Play()
@@ -29,11 +41,13 @@ public class MainMenu : MonoBehaviour
     {
         menuPanel.SetActive(false);
         controlsPanel.SetActive(true);
+        backButton.Select();
     }
 
     void Back()
     {
         controlsPanel.SetActive(false);
         menuPanel.SetActive(true);
+        playButton.Select();
     }
 }
