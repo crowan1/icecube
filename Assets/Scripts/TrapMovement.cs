@@ -60,6 +60,7 @@ public class TrapMovement : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Wall") && turnCooldown <= 0f)
         {
+            print("test");
             movingPositive = !movingPositive;
             turnCooldown = 0.3f;
         }

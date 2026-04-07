@@ -14,10 +14,14 @@ public class PlayerMovement2D : MonoBehaviour
     Vector2 moveDirection = Vector2.zero;
     bool isMoving = false;
 
+    //public event Action OnEndMovement;
+
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         DisableAllColliders();
+
+        //OnEndMovement?.Invoke();
     }
 
     void Update()
