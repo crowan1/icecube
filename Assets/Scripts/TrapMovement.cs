@@ -33,9 +33,10 @@ public class TrapMovement : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         
-           if (isGameOver) return; 
+        if (isGameOver) return; 
+        print(other.tag);
 
-        if (other.CompareTag("Wall") && turnCooldown <= 0f)
+        if ((other.CompareTag("Wall") || other.CompareTag("Enemy")) && turnCooldown <= 0f)
         {
             movingPositive = !movingPositive;
             turnCooldown = 0.3f;
@@ -62,11 +63,11 @@ public class TrapMovement : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Wall") && turnCooldown <= 0f)
+        if ((collision.gameObject.CompareTag("Wall") || collision.gameObject.CompareTag("Enemy")) && turnCooldown <= 0f)
         {
-            print("test");
             movingPositive = !movingPositive;
             turnCooldown = 0.3f;
+            print("collision");
         }
     }
 }
