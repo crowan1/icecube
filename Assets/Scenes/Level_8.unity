@@ -308,6 +308,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 223980166641473398, guid: d658d16c8b8839846a64b443a2edd31d, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 566.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 223980166641473398, guid: d658d16c8b8839846a64b443a2edd31d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 11.8
+      objectReference: {fileID: 0}
     - target: {fileID: 1870724841369996411, guid: d658d16c8b8839846a64b443a2edd31d, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -229.3
@@ -407,6 +415,10 @@ PrefabInstance:
     - target: {fileID: 4661916717360611508, guid: d658d16c8b8839846a64b443a2edd31d, type: 3}
       propertyPath: m_fontSizeBase
       value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5624130514623747961, guid: d658d16c8b8839846a64b443a2edd31d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8521066118032388000, guid: d658d16c8b8839846a64b443a2edd31d, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -557,6 +569,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee77d217c51bb4942befeb7d40eee102, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GemManager
+  slideTime: 0.15
 --- !u!1001 &774795418
 PrefabInstance:
   m_ObjectHideFlags: 0
