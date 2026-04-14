@@ -9,6 +9,15 @@ public class AudioManager : MonoBehaviour
     public AudioClip gameMusic;
 
     AudioSource audioSource;
+    bool isMuted = false;
+
+    public bool IsMuted() { return isMuted; }
+
+    public void ToggleMusic()
+    {
+        isMuted = !isMuted;
+        audioSource.mute = isMuted;
+    }
 
     void Awake()
     {
