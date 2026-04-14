@@ -1,0 +1,1659 @@
+fileFormatVersion: 2
+guid: 54942d3a1c2f1a74a8ceec9c1638abe9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1015284270200428893
+    second: Commands_0
+  - first:
+      213: 5625901582852478910
+    second: Commands_1
+  - first:
+      213: 8081069832344229002
+    second: Commands_2
+  - first:
+      213: -1353455615494084821
+    second: Commands_3
+  - first:
+      213: 7553886969295040202
+    second: Commands_4
+  - first:
+      213: -5016893782946384433
+    second: Commands_5
+  - first:
+      213: -743075242538550652
+    second: Commands_6
+  - first:
+      213: 8431771682831574427
+    second: Commands_7
+  - first:
+      213: 5444982354520350318
+    second: Commands_8
+  - first:
+      213: -2012202051835691749
+    second: Commands_9
+  - first:
+      213: 1359719090443966940
+    second: Commands_10
+  - first:
+      213: 1504096755589830486
+    second: Commands_11
+  - first:
+      213: 304077089606152763
+    second: Commands_12
+  - first:
+      213: 8329591416075598009
+    second: Commands_13
+  - first:
+      213: 496296754365938519
+    second: Commands_14
+  - first:
+      213: -3772303897092856621
+    second: Commands_15
+  - first:
+      213: 7326532227761989857
+    second: Commands_16
+  - first:
+      213: 2051940439598387118
+    second: Commands_17
+  - first:
+      213: 5344900606320534139
+    second: Commands_18
+  - first:
+      213: 3544737546265510514
+    second: Commands_19
+  - first:
+      213: 6758923961214633180
+    second: Commands_20
+  - first:
+      213: 2066911735334095676
+    second: Commands_21
+  - first:
+      213: 773294218845596063
+    second: Commands_22
+  - first:
+      213: 4349711935873605937
+    second: Commands_23
+  - first:
+      213: 2288396154962873726
+    second: Commands_24
+  - first:
+      213: -8534288775989072480
+    second: Commands_25
+  - first:
+      213: 1409978976989772917
+    second: Commands_26
+  - first:
+      213: 6718495207223858025
+    second: Commands_27
+  - first:
+      213: 33907034419426282
+    second: Commands_28
+  - first:
+      213: 4037888777243419468
+    second: Commands_29
+  - first:
+      213: -3033928506106057349
+    second: Commands_30
+  - first:
+      213: -8438231513501584175
+    second: Commands_31
+  - first:
+      213: 1764932135402250815
+    second: Commands_32
+  - first:
+      213: 7413594377670889700
+    second: Commands_33
+  - first:
+      213: 199805949936128971
+    second: Commands_34
+  - first:
+      213: -949970026904829737
+    second: Commands_35
+  - first:
+      213: 6548119456872516421
+    second: Commands_36
+  - first:
+      213: 5491195207017734914
+    second: Commands_37
+  - first:
+      213: -6088380876698120469
+    second: Commands_38
+  - first:
+      213: -8922440307358884327
+    second: Commands_39
+  - first:
+      213: -5211000596882280083
+    second: Commands_40
+  - first:
+      213: 3601976358992767075
+    second: Commands_41
+  - first:
+      213: -2565194504434518963
+    second: Commands_42
+  - first:
+      213: 1880363916138669683
+    second: Commands_43
+  - first:
+      213: -9076514602881299095
+    second: Commands_44
+  - first:
+      213: -2936286921680642755
+    second: Commands_45
+  - first:
+      213: 5346479324937877876
+    second: Commands_46
+  - first:
+      213: -650428715248758056
+    second: Commands_47
+  - first:
+      213: -8445267856427234228
+    second: Commands_48
+  - first:
+      213: 830567483213605044
+    second: Commands_49
+  - first:
+      213: 6626479760918352633
+    second: Commands_50
+  - first:
+      213: 8348289549152520032
+    second: Commands_51
+  - first:
+      213: -4097366321819671552
+    second: Commands_52
+  - first:
+      213: -2130370714191116555
+    second: Commands_53
+  - first:
+      213: 1524802758239514529
+    second: Commands_54
+  - first:
+      213: 3932468735440097590
+    second: Commands_55
+  - first:
+      213: -7769363462672299702
+    second: Commands_56
+  - first:
+      213: 2277935364372762816
+    second: Commands_57
+  - first:
+      213: -2389350912614583801
+    second: Commands_58
+  - first:
+      213: -2588850700308040261
+    second: Commands_59
+  - first:
+      213: 8246467574201103662
+    second: Commands_60
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Commands_1
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 766
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb7da3baea7331e40800000000000000
+      internalID: 5625901582852478910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commands_2
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 762
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a84d00a723ab52070800000000000000
+      internalID: 8081069832344229002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commands_3
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 758
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b27a733e94f873de0800000000000000
+      internalID: -1353455615494084821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commands_4
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 750
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ace68462d2cc4d860800000000000000
+      internalID: 7553886969295040202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commands_6
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 744
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48a3a1ff00110b5f0800000000000000
+      internalID: -743075242538550652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commands_7
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 746
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b95af5e0caba30570800000000000000
+      internalID: 8431771682831574427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commands_8
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 746
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6e94794a96709b40800000000000000
+      internalID: 5444982354520350318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commands_9
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 747
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1d750c15e83314e0800000000000000
+      internalID: -2012202051835691749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commands_10
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 743
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd9da340f41bed210800000000000000
+      internalID: 1359719090443966940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commands_11
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 751
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 657dfb8b700afd410800000000000000
+      internalID: 1504096755589830486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commands_12
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 745
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b323f4e708c483400800000000000000
+      internalID: 304077089606152763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commands_13
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 736
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b83457c247a89370800000000000000
+      internalID: 8329591416075598009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commands_14
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 735
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75b3923c44333e600800000000000000
+      internalID: 496296754365938519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commands_15
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 738
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d465f4979516abc0800000000000000
+      internalID: -3772303897092856621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commands_16
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 742
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e864375e321da560800000000000000
+      internalID: 7326532227761989857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commands_17
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 736
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaf458a45f4f97c10800000000000000
+      internalID: 2051940439598387118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commands_18
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 735
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b72618f68c6ec2a40800000000000000
+      internalID: 5344900606320534139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commands_19
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 740
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 272452b7400713130800000000000000
+      internalID: 3544737546265510514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commands_20
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 729
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd4031c48858ccd50800000000000000
+      internalID: 6758923961214633180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commands_21
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 731
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3bcca6b5452fac10800000000000000
+      internalID: 2066911735334095676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commands_22
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 735
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f99a725befa4bba00800000000000000
+      internalID: 773294218845596063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commands_23
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 725
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 131e50db5f74d5c30800000000000000
+      internalID: 4349711935873605937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commands_24
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 717
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7d8ee1bd2402cf10800000000000000
+      internalID: 2288396154962873726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commands_25
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 737
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ad6198239d109980800000000000000
+      internalID: -8534288775989072480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commands_26
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 735
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57c7e30c860419310800000000000000
+      internalID: 1409978976989772917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commands_27
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 727
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9631ebb7bc3ec3d50800000000000000
+      internalID: 6718495207223858025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commands_28
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 722
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae3f4f5a446787000800000000000000
+      internalID: 33907034419426282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commands_29
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 733
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4361220376790830800000000000000
+      internalID: 4037888777243419468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commands_30
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 735
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7ded9f191255e5d0800000000000000
+      internalID: -3033928506106057349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commands_31
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 735
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d43b39652165ea80800000000000000
+      internalID: -8438231513501584175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commands_32
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 735
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f32a2571d6c4e7810800000000000000
+      internalID: 1764932135402250815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commands_33
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 726
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e018edbec062e660800000000000000
+      internalID: 7413594377670889700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commands_34
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 719
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc3d3fde37ad5c200800000000000000
+      internalID: 199805949936128971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commands_35
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 728
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d0c11f2b4701d2f0800000000000000
+      internalID: -949970026904829737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commands_36
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 711
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54bc5bdd3f79fda50800000000000000
+      internalID: 6548119456872516421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commands_37
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 729
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 203ae9a72f4a43c40800000000000000
+      internalID: 5491195207017734914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commands_38
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 735
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bee802ba9d9b18ba0800000000000000
+      internalID: -6088380876698120469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commands_39
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 728
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91e1f3640df1d2480800000000000000
+      internalID: -8922440307358884327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commands_40
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 730
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d61bb72f09ecea7b0800000000000000
+      internalID: -5211000596882280083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commands_41
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 297
+        width: 1524
+        height: 425
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 216}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3686e171a6accf130800000000000000
+      internalID: 3601976358992767075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commands_42
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 715
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d44756f6039966cd0800000000000000
+      internalID: -2565194504434518963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commands_43
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 721
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37668e5e405681a10800000000000000
+      internalID: 1880363916138669683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commands_44
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 721
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96d4d90ee0eb90280800000000000000
+      internalID: -9076514602881299095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commands_45
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 725
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3d99921a963047d0800000000000000
+      internalID: -2936286921680642755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commands_46
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 719
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47974e18e92823a40800000000000000
+      internalID: 5346479324937877876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commands_47
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 721
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d252e3978639f6f0800000000000000
+      internalID: -650428715248758056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commands_48
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 714
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4c41a821a16cca80800000000000000
+      internalID: -8445267856427234228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commands_49
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 715
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b8efe6b9b4c68b00800000000000000
+      internalID: 830567483213605044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commands_50
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 727
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f29ad4eb3cf5fb50800000000000000
+      internalID: 6626479760918352633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commands_51
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 719
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06787532d151bd370800000000000000
+      internalID: 8348289549152520032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commands_52
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 723
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0042a410a0b3327c0800000000000000
+      internalID: -4097366321819671552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commands_53
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 723
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f64eb46f176f62e0800000000000000
+      internalID: -2130370714191116555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commands_54
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 720
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1afe665a700392510800000000000000
+      internalID: 1524802758239514529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commands_55
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 716
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6319c32da7fe29630800000000000000
+      internalID: 3932468735440097590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commands_56
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 727
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a49c484381dad2490800000000000000
+      internalID: -7769363462672299702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commands_57
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 263
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c01db6152adc9f10800000000000000
+      internalID: 2277935364372762816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commands_58
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 247
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7023ad9110257ded0800000000000000
+      internalID: -2389350912614583801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commands_59
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 263
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb53e9f110e821cd0800000000000000
+      internalID: -2588850700308040261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commands_60
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 235
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e25b80c2196517270800000000000000
+      internalID: 8246467574201103662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8bccc9d521121d24f994194cf0533939
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Commands_0: -1015284270200428893
+      Commands_1: 5625901582852478910
+      Commands_10: 1359719090443966940
+      Commands_11: 1504096755589830486
+      Commands_12: 304077089606152763
+      Commands_13: 8329591416075598009
+      Commands_14: 496296754365938519
+      Commands_15: -3772303897092856621
+      Commands_16: 7326532227761989857
+      Commands_17: 2051940439598387118
+      Commands_18: 5344900606320534139
+      Commands_19: 3544737546265510514
+      Commands_2: 8081069832344229002
+      Commands_20: 6758923961214633180
+      Commands_21: 2066911735334095676
+      Commands_22: 773294218845596063
+      Commands_23: 4349711935873605937
+      Commands_24: 2288396154962873726
+      Commands_25: -8534288775989072480
+      Commands_26: 1409978976989772917
+      Commands_27: 6718495207223858025
+      Commands_28: 33907034419426282
+      Commands_29: 4037888777243419468
+      Commands_3: -1353455615494084821
+      Commands_30: -3033928506106057349
+      Commands_31: -8438231513501584175
+      Commands_32: 1764932135402250815
+      Commands_33: 7413594377670889700
+      Commands_34: 199805949936128971
+      Commands_35: -949970026904829737
+      Commands_36: 6548119456872516421
+      Commands_37: 5491195207017734914
+      Commands_38: -6088380876698120469
+      Commands_39: -8922440307358884327
+      Commands_4: 7553886969295040202
+      Commands_40: -5211000596882280083
+      Commands_41: 3601976358992767075
+      Commands_42: -2565194504434518963
+      Commands_43: 1880363916138669683
+      Commands_44: -9076514602881299095
+      Commands_45: -2936286921680642755
+      Commands_46: 5346479324937877876
+      Commands_47: -650428715248758056
+      Commands_48: -8445267856427234228
+      Commands_49: 830567483213605044
+      Commands_5: -5016893782946384433
+      Commands_50: 6626479760918352633
+      Commands_51: 8348289549152520032
+      Commands_52: -4097366321819671552
+      Commands_53: -2130370714191116555
+      Commands_54: 1524802758239514529
+      Commands_55: 3932468735440097590
+      Commands_56: -7769363462672299702
+      Commands_57: 2277935364372762816
+      Commands_58: -2389350912614583801
+      Commands_59: -2588850700308040261
+      Commands_6: -743075242538550652
+      Commands_60: 8246467574201103662
+      Commands_7: 8431771682831574427
+      Commands_8: 5444982354520350318
+      Commands_9: -2012202051835691749
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -15,6 +15,14 @@ public class SFXManager : MonoBehaviour
     public AudioClip[] deathSounds;
 
     AudioSource audioSource;
+    bool isMuted = false;
+
+    public bool IsMuted() { return isMuted; }
+
+    public void ToggleSFX()
+    {
+        isMuted = !isMuted;
+    }
 
     void Awake()
     {
@@ -67,7 +75,7 @@ public class SFXManager : MonoBehaviour
 
     void PlayRandom(AudioClip[] clips)
     {
-        if (clips.Length == 0) return;
+        if (isMuted || clips.Length == 0) return;
         AudioClip clip = clips[Random.Range(0, clips.Length)];
         audioSource.PlayOneShot(clip);
     }

@@ -12,8 +12,14 @@ public class MainMenu : MonoBehaviour
     public Button playButton;
     public Button controlsButton;
     public Button levelSelectButton;
+    public Button playFromControlsButton;
     public Button backFromControlsButton;
     public Button backFromLevelsButton;
+
+    public Button musicOnButton;
+    public Button musicOffButton;
+    public Button sfxOnButton;
+    public Button sfxOffButton;
 
     void Start()
     {
@@ -24,14 +30,24 @@ public class MainMenu : MonoBehaviour
         playButton.onClick.AddListener(Play);
         controlsButton.onClick.AddListener(ShowControls);
         levelSelectButton.onClick.AddListener(ShowLevelSelect);
+        playFromControlsButton.onClick.AddListener(StartGame);
         backFromControlsButton.onClick.AddListener(BackToMenu);
         backFromLevelsButton.onClick.AddListener(BackToMenu);
+
+        musicOnButton.onClick.AddListener(MuteMusic);
+        musicOffButton.onClick.AddListener(UnmuteMusic);
+        sfxOnButton.onClick.AddListener(MuteSFX);
+        sfxOffButton.onClick.AddListener(UnmuteSFX);
 
         SetButtonColors(playButton);
         SetButtonColors(controlsButton);
         SetButtonColors(levelSelectButton);
+        SetButtonColors(playFromControlsButton);
         SetButtonColors(backFromControlsButton);
         SetButtonColors(backFromLevelsButton);
+
+        UpdateMusicButtons();
+        UpdateSFXButtons();
 
         playButton.Select();
         lastSelected = playButton.gameObject;
@@ -61,6 +77,13 @@ public class MainMenu : MonoBehaviour
 
     void Play()
     {
+        menuPanel.SetActive(false);
+        controlsPanel.SetActive(true);
+        playFromControlsButton.Select();
+    }
+
+    void StartGame()
+    {
         SceneManager.LoadScene(1);
     }
 
@@ -83,5 +106,51 @@ public class MainMenu : MonoBehaviour
         levelSelectPanel.SetActive(false);
         menuPanel.SetActive(true);
         playButton.Select();
+    }
+
+    void MuteMusic()
+    {
+        if (AudioManager.instance != null)
+            AudioManager.instance.ToggleMusic();
+        UpdateMusicButtons();
+        musicOffButton.Select();
+    }
+
+    void UnmuteMusic()
+    {
+        if (AudioManager.instance != null)
+            AudioManager.instance.ToggleMusic();
+        UpdateMusicButtons();
+        musicOnButton.Select();
+    }
+
+    void MuteSFX()
+    {
+        if (SFXManager.instance != null)
+            SFXManager.instance.ToggleSFX();
+        UpdateSFXButtons();
+        sfxOffButton.Select();
+    }
+
+    void UnmuteSFX()
+    {
+        if (SFXManager.instance != null)
+            SFXManager.instance.ToggleSFX();
+        UpdateSFXButtons();
+        sfxOnButton.Select();
+    }
+
+    void UpdateMusicButtons()
+    {
+        bool muted = AudioManager.instance != null && AudioManager.instance.IsMuted();
+        musicOnButton.gameObject.SetActive(!muted);
+        musicOffButton.gameObject.SetActive(muted);
+    }
+
+    void UpdateSFXButtons()
+    {
+        bool muted = SFXManager.instance != null && SFXManager.instance.IsMuted();
+        sfxOnButton.gameObject.SetActive(!muted);
+        sfxOffButton.gameObject.SetActive(muted);
     }
 }
