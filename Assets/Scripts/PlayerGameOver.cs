@@ -8,7 +8,7 @@ public class PlayerGameOver : MonoBehaviour
 
     void Update()
     {
-        if (isGameOver && Input.GetKeyDown(KeyCode.Space))
+        if (isGameOver && Input.GetKeyDown(KeyCode.Return))
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
