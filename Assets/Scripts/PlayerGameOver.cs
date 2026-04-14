@@ -1,9 +1,11 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;  
+using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class PlayerGameOver : MonoBehaviour
 {
     [SerializeField] GameObject gameOverScreen;
+    public float slideTime = 0.15f;
     bool isGameOver = false;
 
     void Update()
@@ -16,22 +18,32 @@ public class PlayerGameOver : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Enemy"))
+        if (other.CompareTag("Enemy") && !isGameOver)
         {
+            isGameOver = true;
             if (SFXManager.instance != null)
                 SFXManager.instance.PlayDeath();
-            if (gameOverScreen != null)
-                gameOverScreen.SetActive(true);
-
-            var movement = GetComponent<PlayerMovement2D>();
-            if (movement != null)
-                movement.enabled = false;
-
-            var rb = GetComponent<Rigidbody2D>();
-            if (rb != null)
-                rb.linearVelocity = Vector2.zero;
-
-            isGameOver = true;    
+            StartCoroutine(SlideAndDie());
         }
+    }
+
+    IEnumerator SlideAndDie()
+    {
+        var rb = GetComponent<Rigidbody2D>();
+        var movement = GetComponent<PlayerMovement2D>();
+        Vector2 velocity = rb != null ? rb.linearVelocity * 0.5f : Vector2.zero;
+
+        if (movement != null)
+            movement.enabled = false;
+
+        if (rb != null)
+        {
+            rb.linearVelocity = velocity;
+            yield return new WaitForSeconds(slideTime);
+            rb.linearVelocity = Vector2.zero;
+        }
+
+        if (gameOverScreen != null)
+            gameOverScreen.SetActive(true);
     }
 }

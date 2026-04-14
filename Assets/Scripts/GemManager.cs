@@ -1,7 +1,9 @@
 using UnityEngine;
+using System.Collections;
 
 public class GemManager : MonoBehaviour
 {
+    public float slideTime = 0.15f;
     int totalGems;
     int collectedGems;
 
@@ -22,11 +24,31 @@ public class GemManager : MonoBehaviour
 
         if (collectedGems >= totalGems)
         {
-            LevelComplete levelComplete = FindFirstObjectByType<LevelComplete>();
-            if (levelComplete != null)
+            StartCoroutine(SlideAndWin());
+        }
+    }
+
+    IEnumerator SlideAndWin()
+    {
+        var player = FindFirstObjectByType<PlayerMovement2D>();
+        if (player != null)
+        {
+            var rb = player.GetComponent<Rigidbody2D>();
+            player.enabled = false;
+
+            if (rb != null)
             {
-                levelComplete.Show();
+                Vector2 velocity = rb.linearVelocity * 0.5f;
+                rb.linearVelocity = velocity;
+                yield return new WaitForSeconds(slideTime);
+                rb.linearVelocity = Vector2.zero;
             }
+        }
+
+        LevelComplete levelComplete = FindFirstObjectByType<LevelComplete>();
+        if (levelComplete != null)
+        {
+            levelComplete.Show();
         }
     }
 }
