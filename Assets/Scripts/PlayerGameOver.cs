@@ -6,6 +6,8 @@ public class PlayerGameOver : MonoBehaviour
 {
     [SerializeField] GameObject gameOverScreen;
     public float slideTime = 0.15f;
+    public float deathRotationTime = 0.3f;
+    public float deathRotationAngle = 90f;
     bool isGameOver = false;
 
     void Update()
@@ -36,11 +38,26 @@ public class PlayerGameOver : MonoBehaviour
         if (movement != null)
             movement.enabled = false;
 
+        var animator = GetComponent<Animator>();
+        if (animator != null)
+            animator.enabled = false;
+
         if (rb != null)
         {
             rb.linearVelocity = velocity;
             yield return new WaitForSeconds(slideTime);
             rb.linearVelocity = Vector2.zero;
+        }
+
+        float elapsed = 0f;
+        float startRotation = transform.eulerAngles.z;
+        while (elapsed < deathRotationTime)
+        {
+            elapsed += Time.deltaTime;
+            float t = elapsed / deathRotationTime;
+            float angle = Mathf.Lerp(startRotation, startRotation + deathRotationAngle, t);
+            transform.eulerAngles = new Vector3(0, 0, angle);
+            yield return null;
         }
 
         if (gameOverScreen != null)

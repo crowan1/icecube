@@ -409,6 +409,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerGameOver
   gameOverScreen: {fileID: 0}
+  slideTime: 0.15
+  deathRotationTime: 0.15
+  deathRotationAngle: 90
 --- !u!1 &8280568988725543416
 GameObject:
   m_ObjectHideFlags: 0
