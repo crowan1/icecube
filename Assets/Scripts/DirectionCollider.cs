@@ -13,6 +13,8 @@ public class DirectionCollider : MonoBehaviour
     {
         if (collision.collider.CompareTag(player.wallTag))
         {
+            if (SFXManager.instance != null)
+                SFXManager.instance.PlayWallHit();
             player.Stop();
         }
     }

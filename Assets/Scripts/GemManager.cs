@@ -17,6 +17,9 @@ public class GemManager : MonoBehaviour
         collectedGems++;
         Debug.Log("Gem collectee: " + collectedGems + "/" + totalGems);
 
+        if (SFXManager.instance != null)
+            SFXManager.instance.PlayGemCollect(collectedGems, totalGems);
+
         if (collectedGems >= totalGems)
         {
             LevelComplete levelComplete = FindFirstObjectByType<LevelComplete>();

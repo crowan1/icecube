@@ -18,7 +18,7 @@ public class LevelComplete : MonoBehaviour
 
     void Update()
     {
-        if (isShowing && Input.anyKeyDown)
+        if (isShowing && Input.anyKeyDown && !Input.GetKeyDown(KeyCode.Escape))
         {
             OnNextPressed();
         }
@@ -28,28 +28,29 @@ public class LevelComplete : MonoBehaviour
     {
         int levelNumber = SceneManager.GetActiveScene().buildIndex;
 
-        levelText.text = "NIVEAU " + levelNumber + " TERMINÉ";
-
         int nextSceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
         isLastLevel = nextSceneIndex >= SceneManager.sceneCountInBuildSettings;
 
+        LevelProgress.UnlockLevel(nextSceneIndex);
+
         if (isLastLevel)
         {
-            levelText.text = "Bravo ! Tous les niveaux sont termines !";
+            levelText.text = "BRAVO ! Tous les niveaux sont réussis !";
         }
         else
         {
             levelText.text = "NIVEAU " + levelNumber + " TERMINÉ";
         }
+        if (SFXManager.instance != null)
+        {
+            if (isLastLevel)
+                SFXManager.instance.PlayFinalVictory();
+            else
+                SFXManager.instance.PlayVictory();
+        }
         panel.SetActive(true);
         isShowing = true;
         Time.timeScale = 0f;
-    }
-
-    void RestartLevel()
-    {
-        Time.timeScale = 1f;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     void OnNextPressed()
